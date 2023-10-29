@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.app-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.chat-container {
+    background-color: #fff;
+    width: 350px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.message-input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.send-button {
+    display: block;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.send-button:hover {
+    background-color: #0056b3;
+}
+
+.message-list {
+    list-style: none;
+    padding: 0;
+}
+
+.message-item {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #e1e1e1;
+}

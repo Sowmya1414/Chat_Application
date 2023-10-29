@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Chat App</title>
 </head>
 <body>
-    <h1>Chat App using Sockets</h1>
-    <input type="text" name="button" id="newmsg">
-    <button id="btn">Send</button>
+    <h1 class="app-title">Chat App using Sockets</h1>
+    <div class="chat-container">
+        <input type="text"  id="roomId" placeholder="room id...">
+        <input type="text" id="userId" placeholder="user id...">
+        <input type="text" class="message-input" id="newmsg" placeholder="message...">
+        <button class="send-button" id="btn">Send</button>
 
-    <ul id="msgList">
-        <li></li>
-    </ul>
+        <ul class="message-list" id="msgList">
+            <li class="message-item"></li>
+        </ul>
+    </div>
+    
     <script src="/socket.io/socket.io.js"></script>
     <script src="script.js"></script>
 </body>

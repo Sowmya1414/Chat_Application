@@ -1,4 +1,5 @@
 var socket=io()
+
 let btn=document.getElementById('btn')
 let inputMsg=document.getElementById('newmsg')
 let msgList=document.getElementById('msgList')
